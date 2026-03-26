@@ -60,8 +60,6 @@
                     <span class="text-lg font-bold">English </span>
                     <img src="./assets/logo.png" alt="">
                     <span class="font-bangla text-lg font-semibold">জানালা</span>
-
-
                 </a>
             </div>
             <div class="navbar-end hidden lg:flex">
@@ -83,47 +81,163 @@
         </div>
     </header>
 
-    <section class="flex flex-col-reverse md:flex-row justify-between gap-5 items-center py-5 w-11/12 mx-auto">
+    <section class="flex flex-col-reverse md:flex-row justify-between gap-5 items-center pt-24 w-11/12 mx-auto ">
         <div class="content flex-1 text-center md:text-left">
-            <h1 class="text-4xl font-bold mb-8 "> <span class="text-[#00BCFF]">English </span>is Easy!!</h1>
-            <p class="font-bangla">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা <br> আপনার দক্ষতা বাড়াতে
-                চান, আমাদের Interactive Lessons আপনাকে নিয়ে<br> যাবে অন্য একটি Level এ</p>
+            <h1 class=" text-3xl lg:text-5xl font-bold mb-8 leading-normal "> <span class="text-[#00BCFF]">English is
+                    Easy!!
+                </span>Helping You <br> Speak Clearly and Confidently.</h1>
+            <p class="font-bangla  lg:w-[80%]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। নতুন হোন বা আগে থেকেই কিছুটা
+                জানেন—আপনার দক্ষতাকে আরও শক্তিশালী করার জন্য এটি সঠিক সময়। আপনি যদি একদম বিগিনার হন, তাহলে ধাপে ধাপে
+                সহজভাবে শুরু করতে পারবেন। আর যদি আগে থেকে কিছুটা জানেন, তাহলে
+                আমাদের গাইডলাইন এবং প্র্যাকটিস সিস্টেম আপনার স্কিলকে আরও উন্নত করতে সাহায্য করবে।
+                <br>
+                <br>
 
-            <fieldset class="fieldset mt-10  ">
-               
-                <input type="text" class="input border-gray-200" placeholder="Enter Your Name" />
-                <input type="password" class="input border-gray-200" placeholder="Password" />
+                আমাদের <span class="font-bold"> Interactive Lessons </span> এমনভাবে ডিজাইন করা, যাতে আপনি শুধু থিওরি না
+                শিখে বাস্তবভাবে ভাষা ব্যবহার করতে
+                পারেন। প্রতিটি লেসনে থাকবে সহজ ব্যাখ্যা, প্র্যাকটিক্যাল উদাহরণ, এবং নিয়মিত প্র্যাকটিসের সুযোগ—যা আপনাকে
+                আত্মবিশ্বাসের সাথে কথা বলতে সাহায্য করবে।
+            </p>
 
-                <button class="btn btn-primary mt-4 w-30 ">Get Started</button>
+            <fieldset class="fieldset mt-10 flex ">
+
+                <input type="text" class="input border-gray-200 lg:w-100 h-14" placeholder="Enter Your Name" />
+                <input type="password" class="input border-gray-200 lg:w-100 h-14" placeholder="Password" />
+
+                <button class="btn btn-primary w-40 py-7 font-bold text-xl ">Get Started</button>
             </fieldset>
 
 
         </div>
 
-        <div class="image flex-1">
-            <img src="./assets/hero-student.png" alt="">
+        <div class="image ">
+            <img class="h-[500px] w-[500px] rounded-xl mx-auto mt-4 items-center" src="./assets/A boy readin a book.png"
+                alt="">
         </div>
     </section>
-    
+
     <section class="mt-52 mb-6">
-        <h2 class="text-4xl font-bold mb-8 text-center" ><span class="text-[#00BCFF]">Let's </span> Learn Vocabularies</h2>
+        <h2 class="text-4xl font-bold mb-8 text-center"><span class="text-[#00BCFF]">Let's </span> Learn Vocabularies
+        </h2>
 
         <div id="level-container" class="flex gap-5 flex-wrap justify-center ">
 
         </div>
     </section>
 
-    <section id="word-container" class="bg-gray-100 p-10 w-11/12 mx-auto my-10 grid grid-cols-3 gap-3">
+    <section id="spinner" class="flex justify-center items-center py-10 hidden">
+        <span class="loading loading-bars loading-xl"></span>
+    </section>
 
-      
-  <div class="text-center col-span-full space-y-4 rounded-xl py-10">
-    <i class="fa-solid fa-person-chalkboard text-7xl"></i>
-    <p class="text-[14px] text-[#79716B] font-bangla">আপনি এখনো কোন Lesson Select করেন নি</p>
-    <h2 class="text-[34px] text-[#292524] font-semibold">একটি Lesson Select করুন।</h2>
-  </div>
+    <section id="word-container"
+        class="bg-gray-100 p-3 lg:p-10 w-11/12 mx-auto my-10 grid lg:grid-cols-3 md:grid-cols-2 gap-3">
+
+
+        <div class="text-center col-span-full space-y-4 rounded-xl py-10">
+            <i class="fa-solid fa-person-chalkboard text-7xl"></i>
+            <p class="text-[14px] text-[#79716B] font-bangla">আপনি এখনো কোন Lesson Select করেন নি</p>
+            <h2 class="text-[34px] text-[#292524] font-semibold">একটি Lesson Select করুন।</h2>
+        </div>
 
 
     </section>
+
+
+    <section>
+        <div class=" my-24">
+            <h2 class="text-3xl font-bold text-center"><span class="text-[#00BCFF]">Frequently </span> Asked Questions
+            </h2>
+            <div class="w-11/12 mx-auto mt-20 space-y-5 ">
+                <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title font-semibold"> 1. How can I start learning English on this website?</div>
+                    <div class="collapse-content text-sm">You can start by exploring our beginner lessons, interactive exercises, and quizzes. We also offer structured courses to guide you step by step.</div>
+                </div>
+                <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold"> 2. I forgot my password. What should I do?</div>
+                    <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the
+                        instructions sent to your email.</div>
+                </div>
+                <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold"> 3. How do I update my profile information?</div>
+                    <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                        changes.</div>
+                </div>
+                <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold"> 4. How do I update my profile information?</div>
+                    <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                        changes.</div>
+                </div>
+                <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold"> 5. How do I update my profile information?</div>
+                    <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make
+                        changes.</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer sm:footer-horizontal bg-[#EDF6FF] text-black-content items-center p-14">
+  
+    <div>
+        <div class=" space-y-4">
+    
+            <a href="" class="flex items-center gap-1 ">
+                           <span class="text-lg font-bold">English </span>
+                           <img src="./assets/logo.png" alt="">
+                           <span class="font-bangla text-lg font-semibold">জানালা</span>
+                       </a>
+       
+                       <h3>ইংরেজি শিখুন সহজে</h3>
+           
+           <p>Copyright © Js Josim - All right reserved</p>
+        </div>
+
+    </div>
+
+  <nav class=" md:justify-self-end space-y-4">
+    <h3 class="font-bold text-gray-700 text-xl">Follow us</h3>
+
+    <div class=" flex gap-3">
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i class="fa-brands fa-youtube fa-2xl"></i>
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
+        <i class="fa-brands fa-github fa-2xl"></i>
+
+    </div>
+
+
+    
+  </nav>
+</footer>
+
+
+
+
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+
+    <dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+            <div id="details-container" class=" space-y-5">
+
+
+            </div>
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
 
     <script src="./script/index.js"></script>
 </body>
